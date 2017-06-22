@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/surnameAuthorRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/nameAuthorRow"
+        android:layout_alignBottom="@+id/nameAuthorRow"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/nameAuthorRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="25dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/dateAuthorRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/removeAuthorRow"
+        android:layout_alignLeft="@+id/nameAuthorRow"
+        android:layout_alignStart="@+id/nameAuthorRow"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/removeAuthorRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/surnameAuthorRow"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="Usuń"
+        android:textSize="12sp" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Panel Administatora</string>
+    <string name="dodaj_autora">Dodaj Autora</string>
+    <string name="szukaj_autora">Szukaj Autora</string>
+    <string name="dodaj_ksiazke">Dodaj Książke</string>
+    <string name="szukaj_ksiazke">Szukaj Książke</string>
+    <string name="szukaj_uzytkownika">Szukaj Użytkownika</string>
+</resources>
